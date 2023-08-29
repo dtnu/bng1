@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #666666;
+	margin: 0
+}
+header{
+	width: 100%;height: 70px;background-color:#D1D1CF
+}
+.logo{
+	padding-top: 10px
+}
+.menu ul{ /*Block nav len nam cung voi logo*/
+	padding: 0;margin: 0;list-style: none; display: flex
+}
+.menu{
+	padding-top: 25px /*Cho nam giua*/
+}
+.menu ul li a{
+	padding: 10px 25px;
+	text-decoration:none;/*De block Menu dan cach ra*/
+	color: darkred
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+aside{
+	width: 30%;padding: 15px; min-height: 500px 
+}
+main{
+	width:70%; padding:15px; min-height: 500px
+}
+.text-do{
+	color:darkred
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none;display: flex;flex-direction: column
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none;color: #666666
+}
+aside ul li{
+	border-bottom: 1px solid #666666
+}
+aside ul li:hover{
+	background-color: darkred;color: white
+}
+.text-den{
+	color: black
+}
+.text-center{
+	text-align: center
+}
+footer{
+	width: 100%; min-height: 200px; background-color:#D1D1CF
+}
+footer a{
+	color:#646464
+}
+footer a:hover{
+	color: #4A29EF
+}
+.bg-xanh{
+	background-color: #6FB7FB
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex;flex-direction: column
+}
+footer ul li a{
+	padding: 10px; display: block; text-decoration: column
+}
+footer ul li a:hover{
+	color: darkred
+}
+footera:hover{
+	
+}
